@@ -7,61 +7,61 @@
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>7b3444b9-3b25-4d5a-829a-b483cc015d77</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\bld\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\bld\x64\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\bin\x64\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\x64\Debug\KinectImageProcessor\KinectImageProcessor.winmd">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\x64\Debug\KinectImageProcessor\KinectImageProcessor.winmd">
       <PackagePath>KinectImageProcessor.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\x64\Debug\KinectImageProcessor\KinectImageProcessor.dll">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\x64\Debug\KinectImageProcessor\KinectImageProcessor.dll">
       <PackagePath>KinectImageProcessor.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\css\default.css">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\default.html">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\images\kinectlogo.png">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\images\kinectlogo.png">
       <PackagePath>images\kinectlogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\images\logo.png">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\images\splashscreen.scale-140.png">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\images\splashscreen.scale-140.png">
       <PackagePath>images\splashscreen.scale-140.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\images\splashscreen.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\images\splashscreen.scale-180.png">
       <PackagePath>images\splashscreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\images\Status.png">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\images\Status.png">
       <PackagePath>images\Status.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\images\storelogo.png">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\js\default.js">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\bin\x64\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\bin\x64\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

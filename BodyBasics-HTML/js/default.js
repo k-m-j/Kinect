@@ -247,7 +247,7 @@
         var jointPoints = new Array();
 
         for (var i = 0; i < jointCount; ++i) {
-            jointPoints.push({ joint: 0, x: 0, y: 0 });
+            jointPoints.push({ joint: 0, x: 0, y: 0, z: 0 });
         }
 
         return jointPoints;

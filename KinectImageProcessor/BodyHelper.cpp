@@ -48,8 +48,9 @@ bool BodyHelper::processJointLocations(
         // map each joint location to depth space
         DepthSpacePoint DepthSpacePoint = coordinateMapper->MapCameraPointToDepthSpace(position);
         jointPoints->Data[jointIndex].jointType = (JointType)(jointIndex);
-        jointPoints->Data[jointIndex].x = DepthSpacePoint.X;
-        jointPoints->Data[jointIndex].y = DepthSpacePoint.Y;
+		jointPoints->Data[jointIndex].x = position.X;
+		jointPoints->Data[jointIndex].y = position.Y;
+		jointPoints->Data[jointIndex].z = position.Z;
     }
 
     return true;

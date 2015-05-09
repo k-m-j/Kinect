@@ -1,2 +1,2 @@
-C:\Users\masot_000\Desktop\Kinect_Sample\BodyBasics-HTML\BodyBasics-HTML.jsproj;x64
-C:\Users\masot_000\Desktop\Kinect_Sample\KinectImageProcessor\KinectImageProcessor.vcxproj;x64
+C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\BodyBasics-HTML.jsproj;x64
+C:\Users\masot_000\Documents\GitHub\Kinect\KinectImageProcessor\KinectImageProcessor.vcxproj;x64

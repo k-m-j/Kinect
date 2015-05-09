@@ -14,6 +14,7 @@ namespace KinectImageProcessor
         WindowsPreview::Kinect::JointType jointType;
         float x;
         float y;
+		float z;
     };
 
     public ref class BodyHelper sealed
