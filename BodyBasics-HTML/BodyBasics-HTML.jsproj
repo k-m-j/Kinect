@@ -52,6 +52,7 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="js\default.js" />
+    <Content Include="js\milkcocoa.js" />
     <None Include="BodyBasics-HTML_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

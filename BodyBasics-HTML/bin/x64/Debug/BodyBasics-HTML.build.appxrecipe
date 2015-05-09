@@ -61,6 +61,9 @@
     <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\js\milkcocoa.js">
+      <PackagePath>js\milkcocoa.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\masot_000\Documents\GitHub\Kinect\BodyBasics-HTML\bin\x64\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>

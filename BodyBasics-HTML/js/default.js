@@ -14,6 +14,9 @@
     var streams = Windows.Storage.Streams;
     var kinect = WindowsPreview.Kinect;
 
+    var milkcocoa = new MilkCocoa("<アプリケーション固有のキー>");
+    var jThirdDataStore = milkcocoa.dataStore("jthird");
+
     // C++ WinRT component
     var bodyImageProcessor = KinectImageProcessor.BodyHelper;
 
@@ -184,6 +187,7 @@
                                     break;
                             }
                         }
+                        jThirdDataStore.send({'bodyIndex': bodyIndex, 'joint': jointArray});
 
                         // draw the body
                         drawBody(joints, jointPoints, bodyColors[bodyIndex]);

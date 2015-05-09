@@ -14,6 +14,9 @@
     var streams = Windows.Storage.Streams;
     var kinect = WindowsPreview.Kinect;
 
+    var milkcocoa = new MilkCocoa("seai9gtpcri.mlkcca.com");
+    var jThirdDataStore = milkcocoa.dataStore("jthird");
+
     // C++ WinRT component
     var bodyImageProcessor = KinectImageProcessor.BodyHelper;
 
@@ -103,6 +106,88 @@
                     
                     // call native component to map all joint locations to depth space
                     if (bodyImageProcessor.processJointLocations(joints, jointPoints)) {
+                        var jointArray = {};
+
+                        for (var j = 0; j < jointPoints.length; j++) {
+                            switch (jointPoints[j].jointType) {
+                                case 0:
+                                    jointArray["SpineBase"] = jointPoints[j];
+                                    break;
+                                case 1:
+                                    jointArray["SpineMid"] = jointPoints[j];
+                                    break;
+                                case 2:
+                                    jointArray["Neck"] = jointPoints[j];
+                                    break;
+                                case 3:
+                                    jointArray["Head"] = jointPoints[j];
+                                    break;
+                                case 4:
+                                    jointArray["ShoulderLeft"] = jointPoints[j];
+                                    break;
+                                case 5:
+                                    jointArray["ElbowLeft"] = jointPoints[j];
+                                    break;
+                                case 6:
+                                    jointArray["WristLeft"] = jointPoints[j];
+                                    break;
+                                case 7:
+                                    jointArray["HandLeft"] = jointPoints[j];
+                                    break;
+                                case 8:
+                                    jointArray["ShoulderRight"] = jointPoints[j];
+                                    break;
+                                case 9:
+                                    jointArray["ElbowRight"] = jointPoints[j];
+                                    break;
+                                case 10:
+                                    jointArray["WristRight"] = jointPoints[j];
+                                    break;
+                                case 11:
+                                    jointArray["HandRight"] = jointPoints[j];
+                                    break;
+                                case 12:
+                                    jointArray["HipLeft"] = jointPoints[j];
+                                    break;
+                                case 13:
+                                    jointArray["KneeLeft"] = jointPoints[j];
+                                    break;
+                                case 14:
+                                    jointArray["AnkleLeft"] = jointPoints[j];
+                                    break;
+                                case 15:
+                                    jointArray["FootLeft"] = jointPoints[j];
+                                    break;
+                                case 16:
+                                    jointArray["HipRight"] = jointPoints[j];
+                                    break;
+                                case 17:
+                                    jointArray["KneeRight"] = jointPoints[j];
+                                    break;
+                                case 18:
+                                    jointArray["AnkleRight"] = jointPoints[j];
+                                    break;
+                                case 19:
+                                    jointArray["FootRight"] = jointPoints[j];
+                                    break;
+                                case 20:
+                                    jointArray["SpineShoulder"] = jointPoints[j];
+                                    break;
+                                case 21:
+                                    jointArray["HandTipLeft"] = jointPoints[j];
+                                    break;
+                                case 22:
+                                    jointArray["ThumbLeft"] = jointPoints[j];
+                                    break;
+                                case 23:
+                                    jointArray["HandTipRight"] = jointPoints[j];
+                                    break;
+                                case 24:
+                                    jointArray["ThumbRight"] = jointPoints[j];
+                                    break;
+                            }
+                        }
+                        jThirdDataStore.send({'bodyIndex': bodyIndex, 'joint': jointArray});
 
                         // draw the body
                         drawBody(joints, jointPoints, bodyColors[bodyIndex]);
@@ -247,7 +332,7 @@
         var jointPoints = new Array();
 
         for (var i = 0; i < jointCount; ++i) {
-            jointPoints.push({ joint: 0, x: 0, y: 0 });
+            jointPoints.push({ joint: 0, x: 0, y: 0, z: 0 });
         }
 
         return jointPoints;
